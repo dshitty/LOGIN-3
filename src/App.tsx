@@ -1,12 +1,17 @@
 // import LoginPage from "./components/LoginPage"
-import LoginPage2 from "./components/LoginPage2";
+// import LoginPage2 from "./components/LoginPage2";
 // import RespLoginPage from "./components/RespLoginPage"
+
+import LoginSignup from "./components/LoginSignup";
+import Test from "./components/test";
 
 const App = () => {
   return (
     <>
-      <LoginPage2 />
+      {/* <LoginPage2 /> */}
       {/* <RespLoginPage/> */}
+      {/* <LoginSignup/> */}
+      <Test/>
     </>
   );
 };
